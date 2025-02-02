@@ -8,7 +8,7 @@ const Profile = () => {
   return (
     <div>
       <div className="min-h-screen  bg-gray-300 p-6">
-        <div className="lg:w-[80%] w-[90%] mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div className="lg:w-[80%] w-[100%] mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col gap-5">
             <div className="flex flex-col items-center">
               <img
