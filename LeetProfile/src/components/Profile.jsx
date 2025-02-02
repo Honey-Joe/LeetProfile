@@ -37,15 +37,15 @@ const Profile = () => {
             </div>
             <hr />
             <div className="flex flex-col gap-2">
-              <h3 >Languages</h3>
+              <h3 className="font-bold">Languages</h3>
               <div>
                 <p className="text-gray-800 text-center text-[12px]">Not enough data</p>
               </div>
             </div>
             <hr />
-            <div className="flex flex-col gap-2">
-              <h3>Skills</h3>
-              <ul className="flex flex-col gap-3">
+            <div className="flex flex-col gap-2 p-2">
+              <h3 className="font-bold">Skills</h3>
+              <ul className="flex flex-col gap-3 list-disc">
                 <li>
                   <div>
                     Advanced
