@@ -19,7 +19,7 @@ const ActivityCalendar = () => {
   const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
   return (
-    <div className="bg-gray-900 text-white p-6 rounded-lg shadow-lg">
+    <div className="p-3 rounded-lg shadow-lg">
       <h3 className="text-lg font-semibold mb-4">Submission Activity</h3>
 
       {/* Scrollable Calendar Wrapper */}
@@ -41,7 +41,7 @@ const ActivityCalendar = () => {
                   .map((date, index) => (
                     <div
                       key={index}
-                      className="w-2 h-2  bg-gray-700 hover:bg-green-500 cursor-pointer relative"
+                      className="w-2 h-2  bg-gray-400 hover:bg-green-500 cursor-pointer relative"
                       onMouseEnter={() => setTooltip(date.toDateString())}
                       onMouseLeave={() => setTooltip(null)}
                     >
